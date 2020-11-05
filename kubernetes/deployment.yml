@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: customerview
-          image: admin25.azurecr.io/customerview:latest
+          image: admin25.azurecr.io/mypage:latest
           ports:
             - containerPort: 8080
           readinessProbe:
