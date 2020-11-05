@@ -15,6 +15,9 @@ public class Mypage {
         private Long bookId;
         private Long qty;
         private String status;
+        private String isMile;
+        private Long mileage;
+        private String mileageStatus;
 
 
         public Long getId() {
@@ -60,4 +63,28 @@ public class Mypage {
         public void setQty(Long qty) {
             this.qty = qty;
         }
+
+    public String getIsMile() {
+        return isMile;
+    }
+
+    public void setIsMile(String isMile) {
+        this.isMile = isMile;
+    }
+
+    public Long getMileage() {
+        return mileage;
+    }
+
+    public void setMileage(Long mileage) {
+        this.mileage = mileage;
+    }
+
+    public String getMileageStatus() {
+        return mileageStatus;
+    }
+
+    public void setMileageStatus(String mileageStatus) {
+        this.mileageStatus = mileageStatus;
+    }
 }
